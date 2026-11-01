@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GRAND AURA | 5-Star Luxury Resort & Hotel</title>
+    <!-- Google Fonts for High-End Luxury Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="1style.css">
+</head>
+<body class="theme-light">
+
+   
+    <!-- Navigation Header ke liye hai ye  -->
+    <header class="main-header">
+    <div class="nav-container">
+    <div class="brand-logo">
+    <span class="logo-crown">👑</span>
+    <div class="brand-text">
+    <h1>THE GRAND AURA</h1>
+    <span class="tagline">LUXURY RESORT & SPA</span>
+    </div>
+    </div>
+    <nav id="navbar">
+    <a href="#about">About</a>
+    <a href="#rooms">Suites & Rooms</a>
+    <a href="#tariff">Tariff Table</a>
+    <a href="#facilities">Amenities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#booking">Book Stay</a>
+    <a href="#reviews">Guest Reviews</a>
+    <a href="#faq">FAQ</a>
+    </nav>
+    </div>
+    </header>
+    <!-- Hero Showcase Section -->
+    <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+    <h2>An Extraordinary Escape into Timeless Elegance</h2>
+    <p>Immerse yourself in bespoke hospitality, private heated infinity pools, and panoramic horizon views crafted for royal comfort.</p>
+    <div class="hero-buttons">
+    <a href="#booking" class="btn btn-gold">Reserve Your Suite</a>
+    <a href="#rooms" class="btn btn-outline">Explore Rooms & Rates</a>
+    </div>
+    </section>
+
+    <!-- About Section with Image Cards -->
+    <section id="about" class="page-section">
+    <div class="section-header">
+    <span class="section-subtitle">WELCOME TO PARADISE</span>
+    <h2>Where Architectural Splendor Meets World-Class Solitude</h2>
+    <div class="gold-divider"></div>
+    </div>
+    <div class="about-grid">
+    <div class="about-text">
+    <p class="lead-text">Established as a pinnacle of regal hospitality, <strong>The Grand Aura Resort & Spa</strong> redefines luxury for travelers seeking unhurried indulgence.</p>
+    <p>Nestled across 18 acres of serene, lush botanical landscapes, our resort offers private pool villas, culinary art created by Michelin-starred culinary masters, and wellness therapies rooted in Ayurvedic healing traditions.</p>
+    </div>
+    <div class="about-image-card">
+    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80" alt="Luxury Hotel Resort Pool" class="glow-img">
+    </div>
+    </div>
+    </section>
+
+    <!-- Room Categories & Interactive Filter Section -->
+    <section id="rooms" class="page-section">
+        <div class="section-header">
+            <span class="section-subtitle">OPULENT LIVING</span>
+            <h2>Our Signature Rooms & Suites</h2>
+            <p>Every room is curated with handpicked Italian marble, bespoke furnishings, and private balconies overlooking serenity.</p>
+            <div class="gold-divider"></div>
+        </div>
+
+        <!-- Interactive Category Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn" data-filter="all">All Rooms</button>
+            <button class="filter-btn" data-filter="deluxe">Deluxe Rooms</button>
+            <button class="filter-btn" data-filter="suites">Executive & Royal Suites</button>
+            <button class="filter-btn" data-filter="villas">Villas & Penthouse</button>
+        </div>
+
+        <!-- Room Cards Showcase -->
+        <div class="room-cards-grid">
+
+            <!-- Room 1 -->
+            <div class="room-box" data-category="deluxe">
+                <div class="room-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=700&q=80" alt="Deluxe Heritage Room">
+                    
+                </div>
+                <div class="room-details">
+                    <div class="room-top">
+                        <h3>Deluxe Heritage Room</h3>
+                        <span class="room-price">₹3,500 <small>/ night</small></span>
+                    </div>
+                    <p class="room-desc">Ideal for solo or couples looking for plush elegance with automated ambient lighting and city skyline views.</p>
+                    
+                        <li>🛏️ King Size Bed</li>
+                        <li>👥 Max 2 Guests</li>
+                        <li>📶 High Speed Wi-Fi</li>
+                        <li>☕ Nespresso Bar</li>
+                    </div>
+            </div>
+
+            <!-- Room 2 -->
+            <div class="room-box" data-category="deluxe">
+                <div class="room-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=700&q=80" alt="Super Deluxe Panoramic Room">
+                   
+                </div>
+                <div class="room-details">
+                    <div class="room-top">
+                        <h3>Super Deluxe Panoramic</h3>
+                        <span class="room-price">₹5,500 <small>/ night</small></span>
+                    </div>
+                    <p class="room-desc">Features a spacious walkout balcony with lounge chairs, complimentary champagne, and marble ensuite shower.</p>
+                        <li>🛏️ Grand King Bed</li>
+                        <li>👥 Max 3 Guests</li>
+                        <li>🍳 Free Breakfast</li>
+                        <li>🌅 Sunrise Balcony</li>
+                    </div>
+            </div>
+
+            <!-- Room 3 -->
+            <div class="room-box" data-category="suites">
+                <div class="room-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80" alt="Executive Jacuzzi Suite">
+                </div>
+                <div class="room-details">
+                    <div class="room-top">
+                        <h3>Executive Jacuzzi Suite</h3>
+                        <span class="room-price">₹8,500 <small>/ night</small></span>
+                    </div>
+                    <p class="room-desc">A lavish dual-room suite with private in-room whirlpool Jacuzzi bathtub, living lounge, and Bose acoustic surround sound.</p>
+                    <li>🛁 Private Jacuzzi</li>
+                    <li>👥 Max 4 Guests</li>
+                    <li>🥂 Evening Cocktails</li>
+                    <li>🤵 24h Butler</li>
+                    
+                    
+                </div>
+            </div>
+
+            <!-- Room 4 -->
+            <div class="room-box" data-category="villas">
+                <div class="room-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=700&q=80" alt="Presidential Penthouse Suite">
+                    
+                </div>
+                <div class="room-details">
+                    <div class="room-top">
+                        <h3>Imperial Presidential Villa</h3>
+                        <span class="room-price">₹18,000 <small>/ night</small></span>
+                    </div>
+                    <p class="room-desc">The zenith of luxury living. Private rooftop infinity plunge pool, private personal chef, and master suites with 360° views.</p>
+                    
+                        <li>🏊 Private Plunge Pool</li>
+                        <li>👥 Max 6 Guests</li>
+                        <li>👨‍🍳 Personal Chef</li>
+                        <li>🚗 Free Rolls Royce</li>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Table Section (Tariff & Live Availability) -->
+    <section id="tariff" class="page-section">
+        <div class="section-header">
+            <span class="section-subtitle">TRANSPARENT PRICING</span>
+            <h2>Tariff & Real-Time Availability Matrix</h2>
+            <p>Guaranteed best rate directly with the hotel. No hidden check-in surcharges.</p>
+            <div class="gold-divider"></div>
+            
+        </div>
+
+        <div class="table-responsive-wrapper">
+            <table class="luxury-table">
+                <thead>
+                    <tr>
+                        <th>Suite Category</th>
+                        <th>Tariff / Night</th>
+                        <th>Max Capacity</th>
+                        <th>Complimentary Inclusions</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Deluxe Heritage Room</strong></td>
+                        <td><span class="tariff-amount">₹3,500</span></td>
+                        <td>2 Adults</td>
+                        <td>High-speed Wi-Fi, Swimming Pool Access, Welcome Drink</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><strong>Super Deluxe Panoramic</strong></td>
+                        <td><span class="tariff-amount">₹5,500</span></td>
+                        <td>3 Adults + 1 Child</td>
+                        <td>Buffet Breakfast, Evening High Tea, Balcony View</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><strong>Executive Jacuzzi Suite</strong></td>
+                        <td><span class="tariff-amount">₹8,500</span></td>
+                        <td>4 Adults</td>
+                        <td>Jacuzzi Bathtub, Spa Credit (₹1500), Airport Shuttle</td>
+                        
+                    </tr>
+                    <tr>
+                        <td><strong>Imperial Presidential Villa</strong></td>
+                        <td><span class="tariff-amount">₹18,000</span></td>
+                        <td>6 Adults (Family)</td>
+                        <td>Private Infinity Pool, Personal Butler, All Meals & Bar</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- Photo Gallery Showcase -->
+    <section id="gallery" class="page-section">
+        <div class="section-header">
+            <span class="section-subtitle">VISUAL JOURNEY</span>
+            <h2>Moments at The Grand Aura</h2>
+            <div class="gold-divider"></div>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80" alt="Resort Front Exterior">
+                <div class="gallery-caption">Royal Resort Architecture</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=600&q=80" alt="Resort Swimming Pool">
+                <div class="gallery-caption">Infinity Horizon Pool</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Fine Dining Hall">
+                <div class="gallery-caption">Aura Signature Dining</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80" alt="Luxury Spa Room">
+                <div class="gallery-caption">Holistic Wellness Spa</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=600&q=80" alt="Evening Lounge">
+                <div class="gallery-caption">Sunset Evening Lounge</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Booking Engine & Live Price Calculator -->
+    <section id="booking" class="page-section booking-wrapper">
+        <div class="section-header">
+            <span class="section-subtitle">INSTANT RESERVATION</span>
+            <h2>Book Your Royal Stay</h2>
+            <p>Fill in your details below. The estimator dynamically calculates stay nights, taxes, and promotional discounts in real-time!</p>
+            <div class="gold-divider"></div>
+        </div>
+
+        <div class="booking-layout">
+            <!-- Left Side: Interactive Form -->
+            <div class="form-container">
+                <form id="hotelBookingForm">
+                    <div class="form-group-title">👤 Guest Information</div>
+                    
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" placeholder="e.g. Rahul Sharma" required>
+                        </div>
+                        <div class="form-col">
+                            <label for="phone">Contact Mobile Number *</label>
+                            <input type="tel" id="phone" pattern="[0-9]{10}" placeholder="10-digit mobile number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" placeholder="rahul@example.com" required>
+                        </div>
+                        <div class="form-col">
+                            <label for="guests">Number of Guests *</label>
+                            <select id="guests" required>
+                                <option value="1">1 Adult (Solo)</option>
+                                <option value="2" selected>2 Adults (Couple)</option>
+                                <option value="3">3 Adults</option>
+                                <option value="4">4 Adults</option>
+                                <option value="5">5+ Adults (Family/Suite)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group-title">🏨 Suite & Date Selection</div>
+
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label for="roomType">Select Suite Category *</label>
+                            <select id="roomType" required>
+                                <option value="">-- Choose a Suite --</option>
+                                <option value="3500" data-name="Deluxe Heritage Room">Deluxe Heritage Room (₹3,500 / night)</option>
+                                <option value="5500" data-name="Super Deluxe Panoramic">Super Deluxe Panoramic (₹5,500 / night)</option>
+                                <option value="8500" data-name="Executive Jacuzzi Suite">Executive Jacuzzi Suite (₹8,500 / night)</option>
+                                <option value="18000" data-name="Imperial Presidential Villa">Imperial Presidential Villa (₹18,000 / night)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label for="checkIn">Check-In Date *</label>
+                            <input type="date" id="checkIn" required>
+                        </div>
+                        <div class="form-col">
+                            <label for="checkOut">Check-Out Date *</label>
+                            <input type="date" id="checkOut" required>
+                        </div>
+                    </div>
+
+                    
+
+                    <!-- Live Validation Error Display -->
+                    <div id="formAlert" class="form-alert"></div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" id="submitBookingBtn" class="btn btn-gold btn-full">
+                        <span>Confirm & Generate Official Reservation Pass</span> ✨
+                    </button>
+                </form>
+            </div>
+    </section>
+
+    <!-- Interactive Guest Reviews Section -->
+    <section id="reviews" class="page-section">
+        <div class="section-header">
+            <span class="section-subtitle">GUEST EXPERIENCES</span>
+            <h2>What Connoisseurs Say</h2>
+            <div class="gold-divider"></div>
+        </div>
+
+        <div class="reviews-grid" id="reviewsContainer">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"The Executive Jacuzzi suite surpassed expectations. Impeccable hygiene, sensational breakfast buffet, and royal hospitality from the front desk team."</p>
+                <div class="reviewer-info">
+                    <strong>Vikramaditya Roy</strong>
+                    <small>Stayed in Executive Suite • Verified Stay</small>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Attended a destination conference here. The helipad reception, infinity pool ambiance, and Michelin-star dinner made it unforgettable!"</p>
+                <div class="reviewer-info">
+                    <strong>Dr. Priya Menon</strong>
+                    <small>Stayed in Presidential Villa • Verified Stay</small>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Fast booking process, smooth checkout, and heavenly spa. The staff pays attention to every minor detail. 10/10 recommendation!"</p>
+                <div class="reviewer-info">
+                    <strong>Aarav Malhotra</strong>
+                    <small>Stayed in Deluxe Room • Verified Stay</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive FAQ Accordion -->
+    <section id="faq" class="page-section">
+        <div class="section-header">
+            <span class="section-subtitle">HELP & INFORMATION</span>
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <p>Click on any inquiry to toggle detailed answers smoothly.</p>
+            <div class="gold-divider"></div>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-card">
+                <button type="button" class="faq-trigger">
+                    <span>What are the check-in and check-out times at The Grand Aura?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-panel">
+                    <p>Official check-in commences at <strong>12:00 PM (Noon)</strong>, and check-out is requested by <strong>11:00 AM</strong>. Guests needing complimentary early check-in or late checkout can inform our concierge beforehand.</p>
+                </div>
+            </div>
+
+            <div class="faq-card">
+                <button type="button" class="faq-trigger">
+                    <span>What is your cancellation and refund policy?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-panel">
+                    <p>We believe in total peace of mind. Reservations can be canceled free of charge up to <strong>24 hours before your arrival date</strong> with a 100% full refund credited to your source payment method.</p>
+                </div>
+            </div>
+
+            <div class="faq-card">
+                <button type="button" class="faq-trigger">
+                    <span>Is breakfast included with all room categories?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-panel">
+                    <p>Super Deluxe, Executive Jacuzzi Suites, and Presidential Villas come with our complimentary five-course gourmet buffet breakfast. Deluxe room guests can add the breakfast package for ₹450 per person.</p>
+                </div>
+            </div>
+
+            <div class="faq-card">
+                <button type="button" class="faq-trigger">
+                    <span>What official identification documents are required during check-in?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-panel">
+                    <p>All adult guests residing at the premises must present an original government-approved photo ID (Aadhar Card, Passport, Voter ID, or Driving License). Foreign nationals are required to present a valid Passport and Visa.</p>
+                </div>
+            </div>
+
+            <div class="faq-card">
+                <button type="button" class="faq-trigger">
+                    <span>Are children and pets allowed on the resort premises?</span>
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-panel">
+                    <p>Children below 6 years stay complimentary with parents. We also have designated pet-friendly luxury suites with private lawn access. Please mention pet details in advance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="brand-logo">
+                    <span class="logo-crown">👑</span>
+                    <div class="brand-text">
+                        <h3>THE GRAND AURA</h3>
+                        <span class="tagline">5-STAR RESORT & RESIDENCES</span>
+                    </div>
+                </div>
+                <p class="footer-about">An architectural haven designed for world-class travelers, celebrations, retreats, and business summits.</p>
+                <p>📍 14th King’s Avenue, Raj Nagar Extension, NCR Delhi / Ghaziabad</p>
+                <p>📞 Concierge Desk: +91 98765 43210 | +91 81260 36189</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Our Heritage</a></li>
+                    <li><a href="#rooms">Rooms & Suites</a></li>
+                    <li><a href="#tariff">Tariff Matrix</a></li>
+                    <li><a href="#facilities">Resort Amenities</a></li>
+                    <li><a href="#booking">Instant Booking Engine</a></li>
+                </ul>
+            </div> 
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 The Grand Aura Luxury Resort Ltd. Developed for Academic Web Technology Showcase.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
